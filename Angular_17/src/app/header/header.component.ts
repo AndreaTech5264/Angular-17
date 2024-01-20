@@ -1,5 +1,3 @@
-// header.component.ts
-
 import { Component } from '@angular/core';
 
 @Component({
@@ -10,28 +8,32 @@ import { Component } from '@angular/core';
         <div class="logo">Logo</div>
         <nav>
           <ul>
-            <li><a routerLink="/">Home</a></li>
-            <li><a routerLink="/about">About</a></li>
-            <!-- Aggiungi altri link del menu se necessario -->
+            <li><a routerLink="home">Home</a></li>
+            <li><a routerLink="about">About</a></li>
+            <li><a routerLink="contact">Contact</a></li>
           </ul>
         </nav>
         <div class="spacer"></div>
         <div class="right-content">
-          <div class="right-text">Login</div>
-          <div class="right-text">Registrati</div>
+          <a routerLink="login">Login</a>
         </div>
       </div>
     </header>
+    <div class="main-content">
+      <!-- Il tuo contenuto principale qui -->
+    </div>
   `,
   styles: [`
     header {
       position: fixed;
       top: 0;
+      left: 0;
       width: 100%;
-      background-color: #1a1a1a; /* Colore di sfondo scuro */
-      color: #00bcd4; /* Colore del testo azzurro */
+      background-color: rgba(173, 216, 230, 0.5);
+      color: #00bcd4;
       padding: 10px 20px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Ombra più pronunciata */
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+      z-index: 1000;
     }
 
     .header-content {
@@ -43,7 +45,7 @@ import { Component } from '@angular/core';
     .logo {
       font-size: 1.5em;
       font-weight: bold;
-      color: #fff; /* Colore del testo bianco */
+      color: #fff;
     }
 
     nav ul {
@@ -66,7 +68,7 @@ import { Component } from '@angular/core';
     }
 
     .right-content {
-      margin-right: 100px;
+      margin-right: 20px;
       display: flex;
       align-items: center;
     }
@@ -74,9 +76,14 @@ import { Component } from '@angular/core';
     .right-text {
       margin-left: 20px;
       font-weight: bold;
-      color: #00bcd4; /* Colore del testo azzurro */
+      color: #00bcd4;
       font-size: 1.2em;
-      /* Aggiungi altri stili futuristici se necessario */
+      cursor: pointer;
+    }
+
+    .main-content {
+      margin-top: 70px;
+      padding: 20px;
     }
   `]
 })

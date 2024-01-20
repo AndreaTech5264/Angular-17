@@ -9,6 +9,7 @@ import { ContactComponent } from './contact/contact.component';
 import { StatusComponent } from './status/status.component';
 import { LoginComponent } from './login/login.component';
 import { HeaderComponent } from './header/header.component';
+import { AddContactComponent } from './add-contact/add-contact.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { HeaderComponent } from './header/header.component';
     AboutComponent,
     ContactComponent,
     StatusComponent,
-    HeaderComponent
+    HeaderComponent,
+    AddContactComponent
   ],
   imports: [
     BrowserModule,
