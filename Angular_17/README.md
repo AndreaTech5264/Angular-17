@@ -1,4 +1,5 @@
-minuto 42 video
+minuto 1:45:00 login video
+IMPORTANTE: implementare la risposta true del form login all'inserimento delle credenziali giuste
 # Angular17
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.10.

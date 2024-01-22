@@ -10,6 +10,8 @@ import { StatusComponent } from './status/status.component';
 import { LoginComponent } from './login/login.component';
 import { HeaderComponent } from './header/header.component';
 import { AddContactComponent } from './add-contact/add-contact.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {HttpClientModule} from '@angular/common/http'
 
 
 @NgModule({
@@ -25,8 +27,9 @@ import { AddContactComponent } from './add-contact/add-contact.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    LoginComponent, //aggiunto successivamente perchè è componente standalone
-    
+    LoginComponent,
+    BrowserAnimationsModule, //aggiunto successivamente perchè è componente standalone
+    HttpClientModule,
   ],
   providers: [
     provideClientHydration()

@@ -15,8 +15,10 @@ import { Component } from '@angular/core';
         </nav>
         <div class="spacer"></div>
         <div class="right-content">
-          <a routerLink="login">Login</a>
-        </div>
+  <a routerLink="login">Login</a> <br>
+  <a routerLink="register">Register</a>
+</div>
+
       </div>
     </header>
     <div class="main-content">
@@ -35,6 +37,12 @@ import { Component } from '@angular/core';
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
       z-index: 1000;
     }
+
+    
+  .right-content a {
+    margin-right: 10px; /* Puoi regolare il valore in base alle tue preferenze */
+  }
+
 
     .header-content {
       display: flex;
