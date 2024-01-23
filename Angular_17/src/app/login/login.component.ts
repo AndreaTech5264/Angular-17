@@ -3,6 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { MaterialModule } from '../../Material-module';
 import { FormsModule } from '@angular/forms';
 
+
 @Component({
   selector: 'app-login',
   standalone: true, 
@@ -10,13 +11,15 @@ import { FormsModule } from '@angular/forms';
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css']
 })
+
 export class LoginComponent implements OnInit{
   constructor () {}
   ngOnInit(): void {
-      
   }
   ProceedLogin(logindata:any){
     console.log(logindata);
   }
-
 }
+
+
+
