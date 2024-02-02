@@ -1,29 +1,37 @@
-minuto 1:45:00 login video
-IMPORTANTE: implementare la risposta true del form login all'inserimento delle credenziali giuste
-# Angular17
+# Fundamentals of Angular 17 framework
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.10.
+Il progetto in questione è una base di partenza per sviluppi futuri.
 
-## Development server
+## Prerequisiti
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Assicurati di avere installato quanto segue prima di iniziare:
 
-## Code scaffolding
+- [Node.js](https://nodejs.org/) (20.11.0)
+- [npm](https://www.npmjs.com/) (gestore di pacchetti per Node.js)
+- [Angular CLI](https://angular.io/cli) (Installato globalmente tramite `npm install -g @angular/cli`)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Installazione
 
-## Build
+1. Clona il repository: `git clone https://github.com/AndreaTech5264/Angular-17`
+2. Entra nella directory del progetto: `cd nomeprogetto`
+3. Installa le dipendenze: `npm install`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Configurazione
 
-## Running unit tests
+1. Configura il backend per la gestione di registrazione e login.
+2. Modifica il file `src/environments/environment.ts` con le informazioni di configurazione necessarie.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Uso
 
-## Running end-to-end tests
+1. Avvia il server di sviluppo: `ng serve`
+2. Apri il browser e vai a `http://localhost:4200/`
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Pagine
 
-## Further help
+- **Home:** Descrizione della pagina principale.
+- **Contact:** Informazioni sulla pagina di contatto.
+- **About:** Ulteriori informazioni .
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+
