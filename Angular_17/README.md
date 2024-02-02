@@ -32,6 +32,9 @@ Assicurati di avere installato quanto segue prima di iniziare:
 - **Contact:** Informazioni sulla pagina di contatto.
 - **About:** Ulteriori informazioni .
 
+## IDE utilizzati
+
+Ho usato Visual Studio Code e il browser web Google Chrome 
 
 
 
