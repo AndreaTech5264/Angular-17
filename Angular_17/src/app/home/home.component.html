@@ -1,12 +1,14 @@
-<h2> {{headername | uppercase}} </h2>    
+   
 
 
-<br>
+
 
 <ul>
     <li *ngFor="let food of foods">
         <a> 
-            <img src = "{{food.imageUrl}}" alt="">
+            
+            <img src="{{food.imageUrl}}" alt="" style="max-width: 400px; height: auto;">
+
             <div class ="name">
                 {{food.name}}
             </div>

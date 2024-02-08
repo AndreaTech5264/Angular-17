@@ -18,6 +18,7 @@ const routes: Routes = [
     {path:"edit/:id",component:AddContactComponent}
   ]},
   {path: "login", component:LoginComponent},
+  {path: 'search/:searchTerm',component:HomeComponent},
   {path: "shop",component:ShopComponent},
   {path: "register",component:RegisterComponent},
   {path: "access",loadChildren:()=>import ('./access/access.module').then(opt=>opt.AccessModule)},
