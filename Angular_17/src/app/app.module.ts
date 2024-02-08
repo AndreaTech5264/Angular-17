@@ -11,7 +11,8 @@ import { LoginComponent } from './login/login.component';
 import { HeaderComponent } from './header/header.component';
 import { AddContactComponent } from './add-contact/add-contact.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {HttpClientModule} from '@angular/common/http'
+import {HttpClientModule} from '@angular/common/http';
+import { ShopComponent } from './shop/shop.component'
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import {HttpClientModule} from '@angular/common/http'
     ContactComponent,
     StatusComponent,
     HeaderComponent,
-    AddContactComponent
+    AddContactComponent,
+    ShopComponent
   ],
   imports: [
     BrowserModule,

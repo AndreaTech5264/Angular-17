@@ -7,6 +7,7 @@ import { LoginComponent } from './login/login.component';
 import { AddContactComponent } from './add-contact/add-contact.component';
 import { RegisterComponent } from './access/register/register.component';
 import { StatusComponent } from './status/status.component';
+import { ShopComponent } from './shop/shop.component';
 
 //qui sotto si inseriscono le rotte 
 const routes: Routes = [
@@ -17,6 +18,7 @@ const routes: Routes = [
     {path:"edit/:id",component:AddContactComponent}
   ]},
   {path: "login", component:LoginComponent},
+  {path: "shop",component:ShopComponent},
   {path: "register",component:RegisterComponent},
   {path: "access",loadChildren:()=>import ('./access/access.module').then(opt=>opt.AccessModule)},
   {path:"**",component:StatusComponent} //404 not found
