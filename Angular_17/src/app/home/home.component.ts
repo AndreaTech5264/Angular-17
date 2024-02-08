@@ -1,5 +1,6 @@
 import { Component ,OnInit} from '@angular/core';
 import { FoodService } from '../services/food/food.service';
+import { food } from '../shared/models/food';
 
 @Component({
   selector: 'app-home',
@@ -8,7 +9,10 @@ import { FoodService } from '../services/food/food.service';
 })
 
 export class HomeComponent {
-  foods:String[]=[];
+onRate($event: Event) {
+throw new Error('Method not implemented.');
+}
+  foods:food[]=[];
   constructor(private foodService:FoodService) {}
 
   headername="Pagina Home del progetto Angular v. 17 ";

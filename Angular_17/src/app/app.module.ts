@@ -13,6 +13,7 @@ import { AddContactComponent } from './add-contact/add-contact.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {HttpClientModule} from '@angular/common/http';
 import { ShopComponent } from './shop/shop.component'
+import { RatingModule} from 'ng-starrating';
 
 
 @NgModule({
@@ -32,6 +33,7 @@ import { ShopComponent } from './shop/shop.component'
     LoginComponent,
     BrowserAnimationsModule, //aggiunto successivamente perchè è componente standalone
     HttpClientModule,
+    
   ],
   providers: [
     provideClientHydration()
